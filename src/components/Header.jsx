@@ -143,7 +143,7 @@ const Header = () => {
       {isCartOpen && (
         <div
           dir="rtl"
-          className="absolute left-3 top-20 z-[60] w-72 max-w-[90vw] rounded-xl border border-gray-200 bg-white p-4 shadow-lg"
+          className="absolute  h-full left-0 top-20 z-[60] w-72 max-w-[90vw] rounded-xl border border-gray-200 bg-white p-4 shadow-lg"
         >
           <div className="mb-3 flex items-center justify-between">
             <h2 className="font-bold">سبد خرید</h2>
@@ -156,9 +156,15 @@ const Header = () => {
               <RxCross2 />
             </button>
           </div>
-          <p className="text-sm text-gray-500">
-            سبد خرید شما خالی است.
+          <div></div>
+          <div className='flex justify-between my-[40px] border-t-2 p-2 border-black/8'> 
+          <button className='flex text-white rounded-full px-3 py-1 
+              bg-gradient-to-r from-[#e24d4d] to-[#f10c0c] ' >قیمت کل</button>
+          
+          <p className="text-sm text-gray-500 flex">
+            سبد خرید شما خالی است. 
           </p>
+         </div>
         </div>
       )}
     </>
