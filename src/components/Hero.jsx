@@ -6,7 +6,7 @@ export default function Hero() {
         <div className=" m-0 w-1/2  h-[400px] bg-cover " style={{backgroundImage : `url(${HeroImg})`}} ></div>
 
         {/* text side */}
-        <div className="w-1/2 bg-[rgb(188,188,188)] overflow:hidden">
+        <div className="w-1/2 bg-[rgb(188,188,188)] max-h-[400px]" style={{overflow:"auto"}} >
             <h1 className='text-4xl mt-20 mr-20 font-semibold'>بیشتر از ۵۰۰۰+ کتاب بدست بیاورید</h1>
             <p className='mt-5 mr-20 text-black/80'>پرفروش ترین کتاب های سال را میتوانید رایگان بدست آورید</p>
 
