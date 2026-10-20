@@ -143,9 +143,11 @@ const Header = () => {
       {isCartOpen && (
         <div
           dir="rtl"
-          className="absolute  h-full left-0 top-20 z-[60] w-72 max-w-[90vw] rounded-xl border border-gray-200 bg-white p-4 shadow-lg"
+          className="absolute  h-full left-0 top-20 z-[60] w-72
+           max-w-[90vw] rounded-xl border  border-gray-200 bg-white
+            p-4  shadow-lg"
         >
-          <div className="mb-3 flex items-center justify-between">
+          <div className="mb-3 flex items-center justify-between transition transform duration-300">
             <h2 className="font-bold">سبد خرید</h2>
             <button
               type="button"
