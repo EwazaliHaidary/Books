@@ -12,7 +12,7 @@ export default function Contact() {
         <section 
           dir='ltr'
           className='bg-gradient-to-r from-[#e6786a] to-[#a00404] 
-            w-full h-[260px] rounded-b-[200px]  shadow-black/60 shadow-lg '>
+            w-full h-[260px] rounded-b-[100px]  shadow-black/60 shadow-lg '>
           <div className='items-center justify-center w-full flex flex-col'>
             <h1 className=' text-white text-4xl hover:text-black/500  
             transform transition-all duration-500  text-shadow-emerald-50 py-6 hover:-translate-2.5    '
